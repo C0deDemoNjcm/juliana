@@ -1,0 +1,94 @@
+<!DOCTYPE.html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+      /*  body{
+         background-image: url('Heart.jpg');
+         background-repeat: no-repeat;
+         background-attachment: fixed;
+         background-size: cover;
+         width:100% */
+             
+       input {
+         border-radius: 10px;
+         border: 1px solid pink;
+         padding: 20px; 
+         width: 300px;
+         height: 25px;  
+}
+         body {
+  background-image: url('pp.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+        }
+        form {
+         border-radius: 20px;
+         border: 1px solid purple;
+         padding: 20px; 
+         width: 350px;
+         height: 400px;  
+          }
+
+    </style>
+
+    <script>
+function verifyPassword() {  
+  var pw = document.getElementById("pswd").value;  
+  if(pw == "pw") {  
+     document.getElementById("message").innerHTML = "**Fill the password please!";  
+     return false;  
+  }  
+    
+  if(pw.length < 8) {  
+     document.getElementById("message").innerHTML = "**Password length must be atleast 8 characters";  
+     return false;  
+  }   
+  if(pw.length > 15) {  
+     document.getElementById("message").innerHTML = "**Password length must not exceed 15 characters";  
+     return false;  
+  } else {  
+     alert("Password is correct");  
+  }  
+} 
+    </script>
+    <style>
+        .myDiv {
+        border: 1.5px outset pink;
+        height: 100px;
+        width: 700px;
+        background-color: white;    
+        }
+        </style>
+</head>
+
+<body >
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+    
+        <pre><p>
+        
+        
+        
+        
+        
+        </p></pre>
+        <form method="post">
+            <div class="text">
+        
+    <h1>Log In</h1>
+   Username <input type="text" /><br><br>
+   Create a password <input type="password" name="pw">
+  <i class="far fa-eye" id="togglePassword" style="margin-left: -30px; cursor: pointer;"></i><br><br>
+     Comfirm password <input type="password" name="pw">
+  <i class="far fa-eye" id="togglePassword" style="margin-left: -30px; cursor: pointer;"></i><br><br>
+  <input type="checkbox">Remember me<br><br>
+  <button type="submit" href="index.html">Create</button><br> <br>
+            
+        
+            </div></form>
+            <div><button> 
+    <a href="index.html">About author</a>
+       </button></div>
+</body>
+</html>

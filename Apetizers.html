@@ -1,0 +1,161 @@
+<!DOCTYPE.html>
+<html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Menu</title>
+        <meta charset="UTF-8">
+        <meta name="author" content="Juliana Chitsamatanga">
+        <meta name="description" contetnt="Menu">
+                <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.mobile-container {
+  max-width: 2000px;
+  margin: auto;
+  background-color: white;
+  
+  color: white;
+  border-radius: 10px;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: purple;
+  position: relative;
+}
+
+.topnav #myLinks {
+  display: none;
+}
+
+.topnav a {
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+}
+
+.topnav a.icon {
+  background: white;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.topnav a:hover {
+  background-color: white;
+  color: black;
+}
+
+.active {
+  background-color: purple;
+  color: black;
+}
+    form {
+         border-radius: 20px;
+         border: 1px solid purple;
+         padding: 20px; 
+         width: 400px;
+         height: 1300px;  
+          }
+    body {
+  background-image: url('pp.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+       
+        
+</style>
+        <style>
+            .single-menu img{
+                border-radius:50%;
+                max-width:110px;
+                transition:3s;
+            }
+            .single-menu:hover img{
+                transform:rotate(360deg);
+            }
+        </style>
+</head>
+<body style="background-color:pink;">
+
+<!-- Simulate a smartphone / tablet -->
+<div class="mobile-container">
+
+<!-- Top Navigation Menu -->
+<div class="topnav">
+  <a href="#home" class="active">Logo</a>
+  <div id="myLinks">
+    <a href="Ourmenu.html">Drinks</a>
+    <a href="Apetizers.html">Apetizers</a>
+    <a href="Contacts.html">Contacts</a>
+  </div>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
+    </div>
+    <script>
+function myFunction() {
+  var x = document.getElementById("myLinks");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
+</script>
+    
+        <div class="main">
+            <div dlass="section-title">
+                <h2 style="text-align:center;">Meals</h2>
+               </div>
+            <div class="menus">
+                <div class="menu-column">
+                    <h4>Apetizers</h4>
+                    <div class="single-menu">
+                    <img src="loster.jpg" width="250">Petite lobster with aparagus cream R150
+                    </div>
+                    <div class="menu-content">
+                    </div>
+                    <div class="menu-column">
+                    <div class="single-menu">
+                    <img src="cups.jpg" width="250">Spinach and mashroom rolls R59,99
+                    </div>
+                    <div class="menu-content">
+                    </div>
+                    <div class="single-menu">
+                    <img src="beef.jpg" width="250">Beef fillet with roasted fennel R150,00
+                    </div>
+                    <div class="single-menu">
+                    <img src="chicken.jpg" width="250">Shrimp wonton cups R50,00 each
+                    </div>
+                    <div class="menu-content">
+                    </div>
+                    <div class="single-menu">
+                    <img src="grape.jpg" width="250">Grape and prosciutto R110,00
+                    </div>
+                        <div class="menu-content">
+                    </div>
+                    <div class="single-menu">
+                    <img src="spinach.jpg" width="250">Creamy chicken Vol-au-Vent R99,00
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    <form><div><button> 
+   <a href="eyes.html">sign in(up)</a>
+       </button></div></form>
+    <form><div><button> 
+    <a href="index.html">About author</a>
+       </button></div></form>
+    </body>
+        </html>
